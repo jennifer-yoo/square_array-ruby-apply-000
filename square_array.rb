@@ -1,3 +1,3 @@
 def square_array(array)
-  array.each { |n| return n**2, ", ", return n**2, ", ", return n**2 }
+  return array.each { |n| print n**2, ", " }
 end
